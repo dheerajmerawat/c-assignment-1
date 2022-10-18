@@ -1,0 +1,147 @@
+1. write a program to print Hello students on the screent
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+    printf(" hello student");
+    return 0;
+}
+
+
+
+
+2. Write a program to print Hello in the first lint and student in the second line.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+    printf(" hello \n student");
+    return 0;
+}
+
+3.Write a program to print "ineuron" on the screen (remember to print in double quotes)
+
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+    printf("\"iNeuron\"");
+}
+
+
+4. WAP to find the area of the circle. Take radius of circle from user as input and printf the result below given format.
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+float r,a;
+printf("enter radius");
+scanf("%f,%f",&r,&a);
+a=3.14*r*r;
+printf("radius is %f",a);
+return 0;
+}
+
+5. WAP to calculate the length of string using print function.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+    int x = printf("suresh");
+    printf("%d",x);
+}
+
+
+
+6. Write to print the name of the user in double quotes.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+
+printf("\"Hello , Amit Kumar\"");
+
+return 0;
+}
+
+7. WAP to print “%d” on the screen.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+printf("%%d");
+
+return 0;
+}
+
+
+
+8. WAP to print “\n” on the screen.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+
+printf("%%d");
+
+return 0;
+}
+
+8. WAP to print “\n” on the screen.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+
+printf("\\n");
+
+return 0;
+}
+
+9. WAP to print “\\” on the screen.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+printf("\\\\");
+
+return 0;
+
+}
+
+
+11. WAP to take time as an input in below given format and convert the time format and
+display the result as given below.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+    int HH,MM;
+    printf("enter time");
+    scanf("%d:%d",&HH,&MM);
+    printf("%d Hour and %d Minute,",HH,MM);
+    return 0;
+}
+
+
+
+12. Find output of below code:
+int main()
+{
+int x = printf(“ineuron”);
+printf(“%d”,x);
+return 0;
+}
+(error)
+
+
